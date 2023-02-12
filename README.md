@@ -12,7 +12,7 @@ again.
 
 ## License
 
-The following directories and their contents are Copyright Tom Preston-Werner.
+The following directories and their contents are Copyright Raghu Notes.
 You may not reuse anything therein without my permission:
 
 * \_posts/
