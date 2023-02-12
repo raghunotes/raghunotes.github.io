@@ -31,6 +31,17 @@ var WRInitTime=(new Date()).getTime();
     <a class="extra" href="/">home</a>
   </div>
 
+<!--    Testing code to print time -->
+  <b id="currentTime"></b><br><br>
+  <script>
+    getTime()
+    function getTime(){
+    document.getElementById("currentTime").innerHTML = new Date();
+    setTimeout(getTime, 1000);
+    }
+  </script>
+
+
   {{ content }}
 
   <div class="footer">
